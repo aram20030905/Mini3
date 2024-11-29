@@ -1,0 +1,114 @@
+.menu{
+    display:flex;
+    justify-content:space-between;
+    width:65%;
+    background-color: brown;
+    margin:auto;
+    position: relative;
+}
+.menu a{
+    text-decoration: none;
+    font-size:25px;
+    letter-spacing: 10px;
+}
+.adm{
+    background-color:brown;
+
+
+}
+
+.basket{
+
+    color: green;
+    font-size:35px;
+ 
+}
+
+
+.a4{
+position: absolute;
+color: black;
+font-size:25px;
+margin-left:95%;
+margin-top: 1.5%;
+color:green;
+
+
+
+}
+
+
+@media (max-width: 1199px) {
+    .menu {
+        width: 80%; 
+    }
+
+    .menu a {
+        font-size: 20px; 
+        letter-spacing: 8px; 
+    }
+
+    .a4 {
+        font-size: 20px; 
+    }
+
+    .basket {
+        font-size: 30px; 
+    }
+}
+
+
+@media (max-width: 767px) {
+    .menu {
+        flex-direction: column; 
+        width: 90%; 
+    }
+
+    .menu a {
+        font-size: 18px; 
+        letter-spacing: 5px; 
+        margin-bottom: 10px; 
+    }
+
+    .a4 {
+        font-size: 18px; 
+        margin-left: 80%;
+    }
+
+    .basket {
+        font-size: 30px; 
+    }
+
+    .adm {
+        font-size: 18px; 
+    }
+}
+
+
+@media (max-width: 479px) {
+    .menu {
+        flex-direction: column; 
+        align-items: center; 
+        width: 100%; 
+        background-color: #f1f1f1; 
+    }
+
+    .menu a {
+        font-size: 16px; 
+        letter-spacing: 3px; 
+        margin-bottom: 8px; 
+    }
+
+    .basket {
+        font-size: 28px; 
+    }
+
+    .a4 {
+        font-size: 16px; 
+        margin-left: 70%; 
+    }
+
+    .adm {
+        font-size: 16px; 
+    }
+}

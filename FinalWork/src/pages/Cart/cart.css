@@ -1,0 +1,15 @@
+.cart_box{
+    display:flex;
+}
+.cart_img img{
+    height:150px;
+    width:150px;
+}
+
+.cart_box h3{
+    margin-top : 45px;  
+}
+
+.prosperous,.obstacle{
+    margin-top : 45px;
+}

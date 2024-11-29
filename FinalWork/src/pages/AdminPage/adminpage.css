@@ -1,0 +1,16 @@
+.Login input{
+    height: 40px;
+    width:180px;
+   
+
+}
+.Login button{
+    height:48px;
+    width:80px;
+    background-color: brown;
+    outline: none;
+}
+
+.pv{
+    display:none;
+}
