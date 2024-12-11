@@ -1,5 +1,6 @@
 import "./artadramas.css"
 import { useNavigate } from "react-router-dom"
+import Footer from "../../footer/Footer"
 
 function Artadramas(){
 
@@ -24,7 +25,8 @@ function Artadramas(){
 <h2>Արտադրամասի բանվոր</h2>
 <p>Պահանջվում են Արտադրամասի բաբվորներ մեր արտադրամասում 25-50 տարեկան: Աշխատարձը 90000 հազար:</p>
 <button onClick={c}>Դիմել</button>
-</div>  
+</div> 
+<Footer/> 
         </div>
     )
 }

@@ -1,5 +1,6 @@
 import "./araqum.css"
 import { useNavigate } from "react-router-dom"
+import Footer from "../../footer/Footer"
 
 function Araqum(){
 
@@ -25,6 +26,7 @@ function Araqum(){
 <p>Պահանջվում են մարուհիներ մեր առաքման բաժնում 40-50 տարեկան։ Աշխատարձը 140000 հազար:</p>
 <button onClick={c}>Դիմել</button>
 </div>  
+<Footer/>
         </div>
     )
 }

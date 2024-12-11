@@ -3,6 +3,7 @@
 }*/
 .art1{
 	padding:25px;
+	flex-direction: row;
 	display:flex;
 }
 .art2 img{

@@ -4,6 +4,7 @@ import image2 from "../../image/2.jpg"
 import image3 from "../../image/3.jpg"
 import image4 from "../../image/4.jpg"
 import { useNavigate } from "react-router-dom"
+import Footer from "../../footer/Footer"
 
 function Work(){
 let navigate = useNavigate()
@@ -22,25 +23,31 @@ let navigate = useNavigate()
         navigate("texspasarkum")
     }
     return (
+        <div>
         <div className="work">
-            <div className="works">
+            <div className="works"onClick={f1} s>
             <h2>Խանութներում</h2>
-<img onClick={f1} src={image1}  height="350px" width="350px"/>
+<img src={image1}  height="350px" width="350px"/>
      
             </div>
-            <div className="works">
+            <div className="works" onClick={f2} >
             <h2>Արտադրամասերում</h2>
-            <img onClick={f2} src={image2}  height="350px" width="350px"/>
+            <img src={image2}  height="350px" width="350px"/>
             </div>
-            <div className="works">
+            <div className="works" onClick={f3}>
             <h2>Առաքում</h2>
-            <img  onClick={f3} src={image3}  height="350px" width="350px"/>
+            <img   src={image3}  height="350px" width="350px"/>
             </div>
-            <div className="works">
+            <div className="works"onClick={f4}>
             <h2>Տեխնիկական սպասարկում</h2>
-            <img  onClick={f4} src={image4}  height="350px" width="350px"/>
+            <img   src={image4}  height="350px" width="350px"/>
             </div>
+       
         </div>
+        <Footer/>
+        </div>
+        
+          
     )
 }
 export default Work

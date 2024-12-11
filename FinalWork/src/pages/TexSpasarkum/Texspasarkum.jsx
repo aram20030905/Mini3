@@ -1,5 +1,6 @@
 import "./texspasarkum.css"
 import { useNavigate } from "react-router-dom"
+import Footer from "../../footer/Footer"
 
 function Texspasarkum(){
     let navigate = useNavigate()
@@ -19,7 +20,7 @@ function Texspasarkum(){
 <p>Պահանջվում են մարուհիներ մեր խանութ սրահում 30-50 տարեկան։ Աշխատարձը 140000 հազար:</p>
 <button onClick={c}>Դիմել</button>
 </div>  
-     
+     <Footer/>
         </div>
     )
 }

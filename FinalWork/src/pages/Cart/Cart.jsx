@@ -1,4 +1,5 @@
 import React,{useState} from 'react'
+import Footer from '../../footer/Footer';
 import "./cart.css"
 
 function Cart({cart, setCart}){
@@ -60,6 +61,7 @@ function Cart({cart, setCart}){
             <span>ընդհանուր - {calculateTotalPrice()}</span>
 
        </div>
+       <Footer/>
 	</article>
 	)
 }

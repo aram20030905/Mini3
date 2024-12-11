@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import Footer from "../../footer/Footer"
 import "./product.css"
 
 function Product({handleClickItem}){
@@ -23,6 +24,7 @@ function Product({handleClickItem}){
 
     
     return (
+        <div>
         <div className="Product">
 {product.map((el)=>{
     return(
@@ -37,7 +39,12 @@ function Product({handleClickItem}){
     )
 
 })}
+
+</div>
+<Footer/>
         </div>
+       
     )
 }
+
 export default Product

@@ -1,6 +1,7 @@
 import "./adminpage.css"
 import {  useNavigate } from "react-router";
 import {useState, useRef} from "react";
+import Footer from "../../footer/Footer";
 
 function AdminPage(){
     let navigate1 = useNavigate()
@@ -49,6 +50,7 @@ function AdminPage(){
     </form>
     
     <p>{error}</p>
+    <Footer/>
 </div>
     )
 }

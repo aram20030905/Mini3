@@ -1,4 +1,5 @@
 import { useEffect,  useReducer, useState } from "react";
+import Footer from "../../footer/Footer";
 import "./admin.css";
 
 
@@ -212,6 +213,7 @@ console.log(productToUpdate)
                     </tbody>
                 </table>
             </div>
+            <Footer/>
         </div>
     );
 }

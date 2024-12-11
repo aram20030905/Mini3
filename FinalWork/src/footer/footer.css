@@ -1,0 +1,22 @@
+.footer{
+    width:100%;
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.footerImage img{
+    height:50px;
+    width:50px;
+}
+.footerImage{
+    width:15%;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.text1000 p{
+    font-size:18px;
+    color:white;
+
+}
