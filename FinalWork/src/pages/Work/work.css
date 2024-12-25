@@ -1,30 +1,90 @@
-.work{
-   
-    margin-left:25%;
-    margin-top:5%;
-    display:flex;
+/* work.css */
 
-
- flex-wrap: wrap;
-    gap:5px;
-    width:38%;
- 
-}
-
-.works{
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Container for the work section */
+  .work {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  /* Individual work card style */
+  .works {
     position: relative;
-    height:350px;
-    width:350px;
-    border:0.5px solid green;
-
-}
-
-.works h2{
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  
+  .works:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Hover effect for images */
+  .works img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+  }
+  
+  .works:hover img {
+    opacity: 0.8;
+  }
+  
+  /* Title overlay */
+  .works h2 {
     position: absolute;
-    left:20px;
-    top:100px;
-    font-size:30px;
-    color:floralwhite
-   
- 
-}
+    bottom: 20px;
+    left: 20px;
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    z-index: 10;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Fade in effect for titles */
+  .works:hover h2 {
+    opacity: 0.9;
+  }
+  
+  /* Footer styling */
+  footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  

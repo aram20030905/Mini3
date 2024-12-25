@@ -1,7 +1,7 @@
 import "./adminpage.css"
 import {  useNavigate } from "react-router";
 import {useState, useRef} from "react";
-import Footer from "../../footer/Footer";
+
 
 function AdminPage(){
     let navigate1 = useNavigate()
@@ -43,14 +43,16 @@ function AdminPage(){
     return(
 
         <div >
+           
     <form className="Login" onSubmit={handlerSubmit}>
+    <       h2>Լոգին</h2>
         <input ref={a}  name="password" type="password" placeholder="Enter Admin Password ..."></input>
         <button ref={b} type="submit">Ուղղարկել</button>
        
     </form>
     
     <p>{error}</p>
-    <Footer/>
+   
 </div>
     )
 }

@@ -17,8 +17,7 @@ import "./routese.css"
 function Routese() {
 const [cart, setCart] = useState([]); 
     const [warning, setWarning] = useState(false)
-  
-    // const [show, setShow] =useState(true)
+
 
 useEffect(() => {
         if (warning) {
@@ -47,7 +46,7 @@ return (
             <Routes>
                 <Route path="/" element={<Layout size={cart.length} />}>
 
-                    <Route path="about" element={<About />} />
+                    <Route index path="about" element={<About />} />
                     <Route path="product" element={<Product handleClickItem={handleClickItem} />} />
                     <Route path="work" element={<Work />} />
                     <Route path="contact" element={<Contact />} />

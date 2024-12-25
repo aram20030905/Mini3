@@ -1,7 +1,7 @@
 
 import "./about.css"
 import image5 from "../../image/5.png"
-import Footer from "../../footer/Footer"
+
 function About(){
     return (
         <div>
@@ -16,7 +16,7 @@ function About(){
            </div>
            
         </div>
-        <Footer/>
+  
         </div>
         
         

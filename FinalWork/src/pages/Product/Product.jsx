@@ -41,7 +41,7 @@ function Product({handleClickItem}){
 })}
 
 </div>
-<Footer/>
+
         </div>
        
     )

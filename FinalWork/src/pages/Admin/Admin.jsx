@@ -212,10 +212,18 @@ console.log(productToUpdate)
                         ))}
                     </tbody>
                 </table>
-            </div>
-            <Footer/>
+
+
+
+  </div>
+        
         </div>
+       
     );
+  
+       
+
 }
+
 
 export default Admin;

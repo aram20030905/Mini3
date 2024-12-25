@@ -1,8 +1,8 @@
 .menu{
     display:flex;
     justify-content:space-between;
-    width:65%;
-    background-color: brown;
+
+    background-color:mintcream;
     margin:auto;
     position: relative;
 }
@@ -10,16 +10,19 @@
     text-decoration: none;
     font-size:25px;
     letter-spacing: 10px;
+    color:royalblue;
+    
+
 }
 .adm{
-    background-color:brown;
-
+    
+background-color:mintcream;
 
 }
 
 .basket{
 
-    color: green;
+    color: royalblue;
     font-size:35px;
  
 }
@@ -29,9 +32,9 @@
 position: absolute;
 color: black;
 font-size:25px;
-margin-left:95%;
+margin-left:97.5%;
 margin-top: 1.5%;
-color:green;
+color:black;
 
 
 

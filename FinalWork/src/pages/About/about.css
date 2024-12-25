@@ -1,20 +1,105 @@
-/*body{
-	background: black;
-}*/
-.art1{
-	padding:25px;
-	flex-direction: row;
-	display:flex;
-}
-.art2 img{
-	height:500px;
-	width:500px;
-}
+/* about.css */
 
-.art3{
-	
-	width:700px;
-}
-.art3 h2{
-	font-size:45px;
-}
+/* Basic Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f9f9f9;
+	color: #333;
+  }
+  
+  /* Main container for the About page */
+  .art1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	padding: 40px;
+	flex-wrap: wrap;
+	background-color: #fff;
+	border-radius: 15px;
+	box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+	margin: 40px auto;
+	max-width: 1200px;
+  }
+  
+  /* Left side image */
+  .art2 img {
+	width: 400px;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 15px;
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .art2 img:hover {
+	transform: scale(1.05);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Right side text */
+  .art3 {
+	max-width: 600px;
+	padding: 20px;
+	color: #333;
+  }
+  
+  .art3 h2 {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: #4CAF50;
+  }
+  
+  .art3 p {
+	font-size: 18px;
+	line-height: 1.6;
+	color: #666;
+	margin-bottom: 30px;
+	text-align: justify;
+	transition: color 0.3s ease;
+  }
+  
+  /* Hover effect for paragraph */
+  .art3 p:hover {
+	color: #333;
+  }
+  
+  /* Footer styling */
+  footer {
+	width: 100%;
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	bottom: 0;
+  }
+  
+  footer p {
+	font-size: 14px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+	.art1 {
+	  flex-direction: column;
+	  gap: 20px;
+	}
+  
+	.art2 img {
+	  width: 100%;
+	  height: auto;
+	}
+  
+	.art3 {
+	  max-width: 90%;
+	}
+  }
+  

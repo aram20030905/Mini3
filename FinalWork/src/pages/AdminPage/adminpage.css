@@ -1,16 +1,81 @@
-.Login input{
-    height: 40px;
-    width:180px;
-   
+/* adminpage.css */
 
-}
-.Login button{
-    height:48px;
-    width:80px;
-    background-color: brown;
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+
+  
+
+  .Login {
+    width: 400px;
+    margin-left: 50%;
+    margin-top:5%;
+    margin-bottom: 5%;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .Login:hover {
+    transform: translateY(-5px);
+  }
+  
+  .Login input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     outline: none;
-}
+    transition: border-color 0.3s ease;
+  }
+  
+  .Login input:focus {
+    border-color: #4CAF50;
+  }
+  
+  .Login button {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Login button:hover {
+    background-color: #45a049;
+  }
+  
+  .Login button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .Login p {
+    font-size: 18px;
+    color: #e74c3c;
+    margin-top: 20px;
+    text-align: center;
+  }
 
-.pv{
-    display:none;
+  .Login h2{
+      text-align: center;
 }
+  
+  
